@@ -1,29 +1,11 @@
-# README #
+# Sygns Java Task #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Vladyslav Romanovskyi
 
-### What is this repository for? ###
+sygns.com
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### Sygns store ###
 
-### How do I get set up? ###
+In our online shop we have four products: Neons, Letters, LED and Lightboxes. We want to validate orders from our configurator and calculate prices based on the product parameters. In the configurator, users can change the size, content, and color of the product. Each product has assigned a size, user content, color of the illumination, and mounting type. Also we have object-type data stored in the attribute named 'productFamily', which is assigned to every product. For the LED there will be an additional RGB color option, that is not available for the neons.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+Create Spring Boot application which will get data from front-end app, validate users' designs and then calculate the price for each product. You can use the H2 database.
